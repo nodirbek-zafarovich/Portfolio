@@ -18,7 +18,7 @@
     display: flex;
     justify-content: $justify-content;
     align-items: $align-items;
-    gap: 167px;
+    gap: 40px;
 }
 
 @mixin DFlex($justify-content:center , $align-items:center){
@@ -30,6 +30,10 @@
     display: flex;
     justify-content: center;
     padding: 100px 0;
-
 }
 
+@mixin DFLEX($justify-content:center  , $align-items:center){
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
