@@ -4,33 +4,152 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/styles/style.scss">
+    <link rel="stylesheet" href="./assets/styles/style.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="header__secction">
-          <div class="title">
+    <div class="container">
+      <header class="header">
+        <div class="header__top">
+          <nav class="header__navigation">
             <ul class="header__list">
-              <li class="header__item">
-                <a class="header__link" href="#">Home</a>
-              </li>
-              <li class="header__item">
-                <a class="header__link" href="#">About me</a>
-              </li>
-              <li class="header__item">
-                <a class="header__link" href="#">Skills</a>
-              </li>
-              <li class="header__item">
-                <a class="header__link" href="#">Portfolio</a>
-              </li>
-              <li class="header__item">
-                <a class="header__link" href="#">Contacts</a>
-              </li>
+              <li><a class="header__item" href="#">Home</a></li>
+              <li><a class="header__item" href="#">About Me</a></li>
+              <li><a class="header__item" href="#">Skills</a></li>
+              <li><a class="header__item" href="#">Portfolio</a></li>
+              <li><a class="header__item" href="#">Contacts</a></li>
             </ul>
+          </nav>
+          <div class="header__bottom">
+            <div class="header__bottom-top">
+              <h1 class="hero__title">
+                Denis <br />
+                Novik
+              </h1>
+              <p class="hero__subtitle">
+                UX | UI designer <br />
+                24 years old, Minsk
+              </p>
+              <span class="hero__lang">RU <strong>| ENG</strong></span>
+            </div>
+            <img
+              src="./assets/images/banner.png"
+              alt="Banner img"
+              class="header__img"
+            />
           </div>
         </div>
-      </div>
-    </header>
+      </header>
+
+      <main>
+        <div class="main">
+          <div class="main__top">
+            <h1 class="main__text">About me</h1>
+            <p class="main__title">
+              Hi, I'm Denis - UX/UI designer from Minsk. I'm interested in
+              <br />
+              design and everything connected with it.
+            </p>
+            <p class="main__title">
+              I'm studying at courses "Web and mobile design interfaces" in
+              <br />
+              IT-Academy.
+            </p>
+            <p class="main__title">
+              Ready to implement excellent projects
+              <br />
+              with wonderful people.
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <hero>
+        <div class="hero">
+          <div class="hero__top">
+            <div class="hero__text-top">
+              <h1 class="text-top">Skills</h1>
+              <p class="hero_subtitle">I work in such programs as</p>
+            </div>
+            <div class="image">
+              <img
+                src="./assets/images/logos/PHOTOSHOP.png"
+                alt="Photoshop Image"
+              />
+              <img
+                src="./assets/images/logos/illustrator.png"
+                alt="Illustrator Image"
+              />
+              <img
+                src="./assets/images/logos/effects.png"
+                alt="Effects Image"
+              />
+              <img src="./assets/images/logos/Figma.png" alt="Figma Image" />
+            </div>
+            <div class="portfolio">
+              <div class="portfolio__top">
+                <div class="portfolio__text_top">
+                  <h1 class="portfolio__title">Portfolio</h1>
+                  <img src="./assets/images/girl.png" alt="Girl Image" />
+                </div>
+                <div>
+                  <h2 class="portfolio__subtitle">
+                    Online fashion store - Homepage
+                  </h2>
+                  <img src="./assets/images/men.png" alt="Men Image" />
+                </div>
+                <div>
+                  <h2 class="portfolio__subtitle">Reebok Store - Concept</h2>
+                  <img src="./assets/images/camera.png" alt="Camera Image" />
+                </div>
+                <div>
+                  <h2 class="portfolio__subtitle">
+                    Braun Landing Page - Concept
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </hero>
+
+      <footer>
+        <div class="container">
+          <div class="footer">
+            <div class="footer__top">
+              <h1 class="footer__text">Contacts</h1>
+              <p class="footer__title">
+                Want to know more or just chat? <br />
+                You are welcome!
+              </p>
+              <div class="footer">
+                <div class="btn">
+                  <button class="footer__btn">
+                    <p class="footer__text_top">Send message</p>
+                  </button>
+                </div>
+                <div class="footer">
+                  <img
+                    src="./assets/images/icons/incloud.svg"
+                    alt="Incloud icon"
+                  />
+                  <img
+                    src="./assets/images/icons/instagram.svg"
+                    alt="Instagram icon"
+                  />
+                  <img
+                    src="./assets/images/icons/behance.svg"
+                    alt="Behance icon"
+                  />
+                  <img
+                    src="./assets/images/icons/basket ball.svg"
+                    alt="Basketball icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

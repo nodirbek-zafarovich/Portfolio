@@ -1,0 +1,49 @@
+.hero {
+  @include Dflex;
+  &__top {
+    padding: 60px 0;
+  }
+
+  &__text-top {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__subtitle {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.image {
+  @include Dflex;
+  padding: 30px 0;
+}
+
+.portfolio {
+  @include DFlex;
+  &__title {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: normal;
+  }
+  &__subtitle {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    padding: 100px 0 ;
+  }
+}

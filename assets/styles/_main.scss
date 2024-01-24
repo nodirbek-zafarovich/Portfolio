@@ -1,0 +1,19 @@
+.main {
+  @include dFlex;
+
+  &__text {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-size: 34px;
+    line-height: normal;
+    padding: 70px 0;
+    font-weight: 700;
+ }
+  &__title {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 500;
+  }
+}

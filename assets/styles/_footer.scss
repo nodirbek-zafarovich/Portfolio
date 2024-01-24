@@ -1,0 +1,37 @@
+.footer {
+  @include Dflex;
+  &__text {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &__title {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .btn{
+    padding: 18px 0;
+  }
+
+  &__btn {
+    border-radius: 36px;
+    background: black;
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.2);
+    width: 260px;
+    height: 66px;
+  }
+  &__text_top {
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
